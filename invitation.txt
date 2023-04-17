@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Invitation Page</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<style>
+body {
+  background-color: white;
+}
+header {
+background-color: navy;
+color: white;
+padding: 10px;
+border-bottom: 2px solid black;
+}
+
+.logo {
+font-size: 28px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.dotcom {
+font-weight: normal;
+}
+
+.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+
+.topnav li {
+float: left;
+}
+
+.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav li a:hover {
+background-color: maroon;
+}
+
+.active {
+background-color: maroon;
+}
+
+#pageForm {
+margin: 50px auto;
+max-width: 500px;
+padding: 20px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+input[type="text"] {
+display: block;
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: 2px solid marron;
+}
+
+input[type="submit"] {
+background-color: navy;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: black;
+}
+
+img {
+display: block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<div class="top">
+<a class="logo" href="index.html">CapellaVolunteers<span class="dotcom">.org</span></a>
+</div>
+<nav>
+<ul class="topnav">
+<li><a href="index.html">Home</a>
+</li>
+<li><a href="invitation.html" class="active">Invitation</a>
+</li>
+<li><a href="gallery.html">Gallery</a>
+</li>
+<li><a href="registration.html">Registration</a>
+</li>
+</ul>
+</nav>
+</header>
+<section id="pageForm">
+<form action="#">
+<label for="recipientName">Recipient name:</label>
+<input type="text" name="recipientName" placeholder="Enter your Recipient Name" />
+<label for="organizationName">Organization name:
+</label>
+<input type="text" name="organizationName" placeholder="Enter your Organization Name" />
+
+<label for="eventDate">Event Date:
+</label>
+<input type="text" name="eventDate" placeholder="Enter your Event Date" />
+
+<label for="websiteURL">URL:
+</label>
+<input type="text" name="websiteURL" placeholder="Enter your Website URL" />
+
+<label for="hostName">Host name:
+</label>
+<input type="text" name="hostName" placeholder="Host Name" />
+
+<input type="submit"
